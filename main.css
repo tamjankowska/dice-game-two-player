@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+body {
+    background: url(./pattern.jpg);
+    background-repeat: repeat;
+
+}
+.wrapper {
+    position: absolute;
+    width: 60%;
+    height: 75%;
+    border: solid 10px rgb(224, 204, 204);
+    border-style: outset;
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+    /* padding: 2.5%; */
+    transform: translate(-50%, -50%);
+}
+
+.playerOnePanel {
+    background-color: rgba(67, 61, 80, 0.808);
+    color: rgba(255, 255, 255, 0.61);
+    /* background-color: white;
+    color: black; */
+    height: 100%;
+    float: left;
+    width: 50%;
+    padding-bottom: 30%;
+    margin: 0;
+
+}
+
+
+.playerTwoPanel {
+    background-color: rgba(67, 61, 80, 0.808);
+    color: rgba(255, 255, 255, 0.61);
+    height: 100%;
+    float: right;
+    width: 50%;
+    padding-bottom: 30%;
+    margin: 0;
+}
+#currentDiceOne {
+    border: rebeccapurple solid 4px;
+    background-color: palegreen;
+    width: 50%;
+    padding: 5%;
+    
+    /* position: absolute; */
+
+}
+#start, #roll, #hold {
+    height: 10%;
+    min-width: 20%;
+    position: absolute;
+    left: 40%;
+    font-size: 1em;
+    border-radius: 35%;
+    font-family: 'IBM Plex Mono', monospace;
+}
+#start {
+    top: 25%;
+    background-color: white;
+    color: rgb(107, 99, 99);
+    border: 0.25em dashed rgb(107, 99, 99);
+}
+#roll {
+    top: 70%;
+    background-color: rgb(107, 99, 99);
+    color: white;
+    border: 0.25em dashed white;
+}
+#hold {
+    top: 85%;
+    background-color: rgb(107, 99, 99);
+    color: white;
+    border: 0.25em dashed white;
+}
+h3 {
+    text-align: center;
+    font-family: satisfy, cursive;
+    margin: 0;
+}
+h1 {
+    justify-content: center;
+    padding: 2.5%;
+    background: linear-gradient(to left, #daa646ce,#6f57c5ce);
+    color: white;
+    font-size: 3em;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: satisfy, cursive;
+    font-size: 2em;
+    grid-row: 1;
+
+}
+h3 {
+    font-size: 5em;
+}
+h4 {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    padding-top: 5%;
+}
+h5 {
+    font-size: 2em;
+    text-align: center;
+    font-family: satisfy, cursive;
+    background-color: rgb(230, 213, 213);
+    color: white;
+    margin: 0% 40%;
+    padding: 3% 0;
+    border: solid 5px rgba(44, 54, 54, 0.24);
+    border-radius: 10%;
+    border-style: ridge;
+
+}
+#image {
+    border-radius: 30%;
+    position: absolute;
+    top: 40%;
+    left: 41.5%;
+    width: 17%;
+    height: 25%;
+    filter: drop-shadow(16px 16px 20px rgb(117, 24, 39)) hue-rotate(180deg);
+
+}
+
